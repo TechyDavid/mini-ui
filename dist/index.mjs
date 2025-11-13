@@ -1,0 +1,2 @@
+import{jsx as n}from"react/jsx-runtime";var p=({variant:o="primary",children:r,...t})=>{let e={primary:{backgroundColor:"#007bff",color:"#fff",padding:"10px 16px",border:"none",borderRadius:"6px",cursor:"pointer"},secondary:{backgroundColor:"#f0f0f0",color:"#000",padding:"10px 16px",border:"1px solid #ccc",borderRadius:"6px",cursor:"pointer"}}[o];return n("button",{style:e,...t,children:r})};export{p as Button};
+//# sourceMappingURL=index.mjs.map
