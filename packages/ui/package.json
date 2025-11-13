@@ -1,17 +1,19 @@
 {
   "name": "@mini-ui/core",
-  "version": "0.0.0",
-  "main": "dist/index.cjs.js",
-  "module": "dist/index.esm.js",
+  "version": "0.1.0",
+  "main": "dist/index.cjs",
+  "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
-  "sideEffects": ["src/styles.css"],
-  "files": ["dist"],
   "scripts": {
-    "build": "tsc --build",
-    "dev": "tsc -w"
+    "build": "tsup"
   },
   "peerDependencies": {
     "react": "^18.0.0",
     "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.4",
+    "tsup": "^8.0.0",
+    "typescript": "^5.3.3"
   }
 }
