@@ -1,5 +1,5 @@
 {
-  "@mini-ui/core": "file:../../packages/ui",
+  "@mini-ui/core": "file:../packages/ui",
   "version": "0.1.0",
   "main": "dist/index.cjs",
   "module": "dist/index.mjs",
